@@ -29,6 +29,7 @@ const naviguate=useNavigate();
     setStoreId(e.target.id)
     naviguate('/store')
    }
+   
    function handle(e){
     e.stopPropagation()
    }
