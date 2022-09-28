@@ -5,22 +5,14 @@ nav{
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* background-color: rgba(30, 58, 68, 0.869); */
-  /* background-color: #2f819fbc; */
-   top: 0;
-   background-color: rgba(207, 215, 220, 0.423);
-   z-index: 100;
+  top: 0;
+  background-color: rgba(207, 215, 220, 0.423);
+  z-index: 100;
   }
 nav *{
   margin:2%;
   font-size: 1.2em;
 }
-/* *{
-  border: 0.1px solid rgba(64, 62, 62, 0.049);
-} */
-/* *{
-  border: 0.1px solid rgb(30, 19, 19);
-} */
 body{
   background-image: url('./assets/bggg22.jpg');
   background-attachment: fixed;
