@@ -1,0 +1,32 @@
+.cartGrid{
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 90%;
+    background-color: rgba(95, 93, 91, 0.698);
+    border-radius:3px ;
+    color: white;
+    margin-top: 150px;
+    
+}
+.cartGrid *{
+    padding: 1%;
+    border: 0.2px solid rgba(134, 132, 132, 0.552);
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.cartGrid button{
+    width:100px;
+    margin: auto;
+    padding: 1.5%;
+    border-radius:5px;
+    background-color: rgba(245, 110, 110, 0.448);
+    color: rgb(74, 43, 43);
+}
+.cartGrid button:hover{
+    background-color: rgba(245, 110, 110, 0.808);
+}

@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+  position: fixed;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-color: rgba(30, 58, 68, 0.869); */
+  /* background-color: #2f819fbc; */
+   top: 0;
+   background-color: rgba(207, 215, 220, 0.423);
+   z-index: 100;
+  }
+nav *{
+  margin:2%;
+  font-size: 1.2em;
+}
+/* *{
+  border: 0.1px solid rgba(64, 62, 62, 0.049);
+} */
+/* *{
+  border: 0.1px solid rgb(30, 19, 19);
+} */
+body{
+  background-image: url('./assets/bggg22.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.icon{
+  background-image: url('./assets/booklog.png');
+  width: 80px;
+  height: 70px;
+  background-size: cover;
+}
+#title{
+  color: #341124;
+  font-weight: bolder;
+  font-size: 2.5em;
+  letter-spacing:3px
+}
+button{
+  -webkit-transition:all .2s linear;
+   -o-transition:all .2s linear;
+    transition:all .2s linear;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+.prev{
+  position: relative;
+  top: 200px;
+  left: 30px;
+  font-size: 2em;
+  color: rgba(251, 213, 172, 0.82);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

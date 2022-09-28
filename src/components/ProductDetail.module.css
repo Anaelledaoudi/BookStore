@@ -1,0 +1,79 @@
+.container {
+   display: flex;
+   position: relative;
+   top: 100px;
+   margin: auto;
+   width: 80%;
+   justify-content: space-between;
+   margin-top: 60px;
+  }
+.desc{
+  background-color: rgba(210, 191, 183, 0.676);
+  padding: 3%;
+}
+.addCart{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(241, 236, 236, 0.899);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 100%;    
+}
+.addCart *{
+  width: 100%;
+  margin: auto;
+}
+.headDtl{
+    margin: auto;
+    margin-bottom: 5%;
+}
+.addCart button{
+  border-radius: 5px;
+  padding: 2%;
+  border: none;
+  background-color: rgba(224, 188, 151, 0.642);
+  padding: 10px;
+  color: rgb(243, 232, 232);
+  width: 70px;
+  margin-top: 5%;
+}
+.addCart button:hover{
+  background-color: rgb(250, 176, 107);
+  
+}
+.cartDigit{
+  background-color: rgb(175, 234, 214);
+  border-radius: 100px;
+  height: 18px;
+  font-size: 13px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  left: 8px;
+}
+.mySpin{
+  font-size: 6em;
+  position: relative;
+  top:300px;
+  left: 44%;
+  color: rgb(244, 222, 229);
+}
+@media only screen and (max-width: 700px) {
+  .container{
+      flex-direction: column;
+  }
+  .addCart{
+    width: 93%;
+    margin-top: 0.3%;
+  }
+}
+.msg{
+  background-color: rgba(107, 39, 2, 0.485);
+  padding: 2%;
+  width: 80%;
+  margin-top: 5%;
+  border-radius: 5px;
+  color: rgb(64, 59, 52);
+}
